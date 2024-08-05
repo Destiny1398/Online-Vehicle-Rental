@@ -2,11 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f9f9f9;
 }
 
 header {
     background-color: #333;
-    color: rgb(59, 179, 175);
+    color: white;
     padding: 1em;
     text-align: center;
 }
@@ -14,25 +15,65 @@ header {
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 10px;
+    margin: 0 15px;
 }
 
 nav ul li a {
-    color: rgb(38, 152, 175);
+    color: white;
     text-decoration: none;
 }
 
-main {
-    padding: 20px;
+.hero {
+    background-color: #007BFF;
+    color: white;
+    padding: 2em 0;
+    text-align: center;
+}
+
+.insurance-plans {
+    padding: 2em;
+    background-color: white;
+}
+
+.plan {
+    border: 1px solid #ddd;
+    padding: 1em;
+    margin: 1em 0;
+}
+
+.plan h4 {
+    margin-top: 0;
+}
+
+.contact-form {
+    padding: 2em;
+    background-color: #f1f1f1;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form form label {
+    margin: 0.5em 0 0.2em;
+}
+
+.contact-form form input, 
+.contact-form form select {
+    padding: 0.5em;
+    margin-bottom: 1em;
 }
 
 footer {
     background-color: #333;
-    color: rgb(38, 177, 187);
+    color: white;
     text-align: center;
     padding: 1em;
     position: fixed;
